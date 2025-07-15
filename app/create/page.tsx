@@ -1,7 +1,7 @@
 import React from 'react'
 import {addPost} from '../../utils'
 
-const page = ({name = '' , desc= ''}) => {
+const page = () => {
   return (
     <div>
         <h1 className='uppercase text-[50px] text-center text-white'>create new <span className='text-red-400'>x</span> -change</h1>
